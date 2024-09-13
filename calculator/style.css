@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.display-value{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+
+}
+
+button{
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.7rem;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+}
+
+.opreator-button{
+    background-color: orange;
+}
+
+.clear-button{
+    font-size: 1.7rem;
+    padding: 1px 4px;
+    text-align: center;
+    
+}

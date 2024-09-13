@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>Calculator</h1>
+
+      <p class="display-value">0</p>
+
+      <button
+        onclick="
+        input('1');    screen(); "
+      >
+        1
+      </button>
+
+      <button
+        onclick="
+        input('2');    screen(); "
+      >
+        2
+      </button>
+
+      <button
+        onclick="
+        input('3');    screen(); "
+      >
+        3
+      </button>
+
+      <button
+        class="opreator-button"
+        onclick="
+        input(' + ');    screen(); "
+      >
+        +
+      </button>
+      <br />
+
+      <button
+        onclick="
+        input('4');    screen(); "
+      >
+        4
+      </button>
+
+      <button
+        onclick="
+        input('5');    screen(); "
+      >
+        5
+      </button>
+
+      <button
+        onclick="
+        input('6');    screen(); "
+      >
+        6
+      </button>
+
+      <button
+        class="opreator-button"
+        onclick="
+        input(' - ');    screen(); "
+      >
+        -
+      </button>
+      <br />
+
+      <button
+        onclick="
+        input('7');    screen(); "
+      >
+        7
+      </button>
+
+      <button
+        onclick="
+        input('8');    screen(); "
+      >
+        8
+      </button>
+
+      <button
+        onclick="
+        input('9');    screen(); "
+      >
+        9
+      </button>
+
+      <button
+        class="opreator-button"
+        onclick="
+        input(' * ');    screen(); "
+      >
+        *
+      </button>
+      <br />
+
+      <button
+        onclick="
+        input('0');    screen(); "
+      >
+        0
+      </button>
+
+      <button
+        onclick="
+        input('.');    screen(); "
+      >
+        .
+      </button>
+
+      <button
+        onclick="
+        calculate(); "
+      >
+        =
+      </button>
+
+      <button
+        class="opreator-button"
+        onclick="
+        input(' / ');    screen(); "
+      >
+        /
+      </button>
+      <br />
+
+      <button
+        class="clear-button"
+        onclick="
+        clearDisplay(); "
+      >
+        clear
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
